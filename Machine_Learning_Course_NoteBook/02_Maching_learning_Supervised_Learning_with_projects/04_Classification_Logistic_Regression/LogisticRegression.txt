@@ -1,0 +1,43 @@
+It is a classification Algo: Predicts the probability. To segregates as classes.    
+We are predicting the discrete things. 
+Classifies the historical data. 
+Ex: google Capta image. 
+
+Eg: Car image. 
+We need new error metrics etc. For classification problem. 
+
+
+Logistic function: Eg(Sigmoid function)
+sigma(x) = 1/(1+e^-x)  Between 0 and 1. 
+That is y axis im getting probability. 
+There are family of logistic functions we have :
+1. Sigmoid fn
+2. Tanh 
+...etc  
+
+Leveling of behaviour of curve:  
+For any value of x feature it has o/p between 0 and 1.  
+
+
+Converting Linear to logistic intuition For classification or categorical Task: 
+
+odds: 
+The odds of horse winning the race is 100 to 1 . 
+
+In probability the odds of the event with probability p  is defined as the chance of the event happening, p / chance of event not happening(1-p). 
+
+
+Maximum likelyhood is the error metrics for the logestic regression it should be closer to 1. 
+
+
+In practice we look at the log(maximum likely hood) = lpg(p1)*log(p2)*log(1-p3)*log(1-p4) etc. 
+
+
+
+
+
+
+
+ 
+
+
